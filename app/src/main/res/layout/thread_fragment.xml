@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Switch
+            android:layout_margin="5dp"
+            android:text="Include an exact or quasi exact GPS coordinate?\nEnabled is default."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch1"/>
+
+    <Switch
+            android:layout_margin="5dp"
+            android:text="Public or Private post?\nPrivate is default."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch2"/>
+
+    <Switch
+            android:layout_margin="5dp"
+            android:text="Info or Interactive thread?\nInteractive is default."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/switch3"/>
+
+    <TextView
+            android:layout_margin="5dp"
+            android:text="How many hours until the message expires?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"/>
+
+    <Spinner
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner2"/>
+
+    <TextView
+            android:layout_margin="5dp"
+            android:text="What is the visibility radius (miles)?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"/>
+
+    <Spinner
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"/>
+
+    <TextView
+            android:layout_margin="10dp"
+            android:text="Message:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"/>
+
+    <EditText
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/editText2"/>
+
+    <Button
+            android:text="Post it"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"/>
+
+</LinearLayout>
